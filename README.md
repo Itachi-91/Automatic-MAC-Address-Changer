@@ -129,18 +129,7 @@
 
 
 >**Whenever you want to use Automatic MAC Changer AMC follow these steps.**
-```console
- cd AMC
-```
-```console
- cd Automatic-MAC-Address-Changer
-```
-```console
- cd dist
-```
-```console
- ./amc
-```
+
 
 >**Example**
 ```console
@@ -156,12 +145,6 @@
 ```
 
 >If AMC is not working then do the following process:
-```console
- cd /etc/NetworkManager/ 
- ```
- ```console
- nano NetworkManager.conf
-```
 ```console
 default: managed=false
 To change: managed=true
